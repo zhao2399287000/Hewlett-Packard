@@ -1,0 +1,44 @@
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+u, ul, 
+var{																	/**对上面所有的元素都进行下面的格式设置**/
+    background: transparent;											/**backgroundcolor为transparent的元素的事件会对被它遮住的元素所截获.**/
+    border: 0 none;
+    font-size: 100%;								
+    margin: 0;															/**margin 简写属性在一个声明中设置所有外边距属性**/
+		padding: 0;
+		border: 0;
+		outline: 0;
+    vertical-align: top; }												/**设置元素的垂直对齐方式  --  把元素的顶端与行中最高元素的顶端对齐**/
+
+ol, ul {																/**对所有表格样式改变**/
+	list-style: none;													/**list-style:设置所有的列表属性 -- 没有变化**/
+}
+
+dl span {float:left; width:80px;} 										/*对表单的宽度设置以及浮动*/
+
+table, table td { 														/**对所有表格样式改变**/
+	padding:0;															/**表格没有内边距**/
+	border:none;														/**表格没有边框**/
+	border-collapse:collapse;											/**为表格设置合并边框模型**/
+}
+
+img {																	/**对所有用img插入的图片样式改变**/
+	vertical-align:top; 												/**设置元素的垂直对齐方式  --  把元素的顶端与行中最高元素的顶端对齐**/
+}
